@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: #000;
+    margin-top: 20px;
+}
+
+.search-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-section select, 
+.search-section input {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.flight-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flight-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 22%;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.flight-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.flight-info {
+    padding: 15px;
+}
+
+.flight-info h2 {
+    font-size: 18px;
+    color: #000;
+}
+
+.flight-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.price {
+    font-size: 20px;
+    color: #d9534f;
+}
+
+button {
+    background-color: #d9534f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
